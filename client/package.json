@@ -1,14 +1,14 @@
 {
-  "homepage": "https://adiy03.github.io/cari-properti-app",
+  "homepage": "http://adiy03.github.io/cari-properti-app",
   "name": "estateui",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "vite build",
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist",
+    "build": "build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
